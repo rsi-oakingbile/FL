@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./column.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="column">
+      <div class="row">
+        <div class="suspense-work-item">Suspense Work Item</div>
+      </div>
+      <div class="row1" id="rowContainer1">
+        <div class="suspense-work-item">Entity Summary</div>
+      </div>
+      <div class="row1" id="rowContainer2">
+        <div class="suspense-work-item">Account Summary</div>
+      </div>
+      <div class="header">
+        <div class="suspense-work-item">Period Summary</div>
+      </div>
+      <div class="row1" id="rowContainer4">
+        <div class="suspense-work-item">Revenue Reporting</div>
+      </div>
+      <div class="header">
+        <div class="suspense-work-item">Audit Lead Selection</div>
+      </div>
+      <div class="row5">
+        <div class="suspense-work-item">Service Request</div>
+      </div>
+    </div>
+
+    <script>
+      var rowContainer1 = document.getElementById("rowContainer1");
+      if (rowContainer1) {
+        rowContainer1.addEventListener("click", function (e) {
+          // Please sync "Entity Summary Report" to the project
+        });
+      }
+      
+      var rowContainer2 = document.getElementById("rowContainer2");
+      if (rowContainer2) {
+        rowContainer2.addEventListener("click", function (e) {
+          // Please sync "Account Summary" to the project
+        });
+      }
+      
+      var rowContainer4 = document.getElementById("rowContainer4");
+      if (rowContainer4) {
+        rowContainer4.addEventListener("click", function (e) {
+          // Please sync "Suspense Work Item" to the project
+        });
+      }
+      </script>
+  </body>
+</html>

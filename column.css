@@ -1,0 +1,72 @@
+.suspense-work-item {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.row,
+.row1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.row {
+  align-self: stretch;
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  background-color: var(--color-aliceblue);
+  border-top: 1px solid var(--color-aliceblue);
+  border-right: 1px solid var(--color-aliceblue);
+  border-left: 1px solid var(--color-aliceblue);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-xs);
+  align-items: center;
+}
+.row1 {
+  cursor: pointer;
+}
+.header:hover,
+.row1:hover,
+.row5:hover {
+  background-color: var(--color-aliceblue);
+}
+.header,
+.row1 {
+  align-self: stretch;
+  background-color: var(--white);
+  border-top: 1px solid var(--color-aliceblue);
+  border-right: 1px solid var(--color-aliceblue);
+  border-left: 1px solid var(--color-aliceblue);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-xs);
+  align-items: center;
+}
+.column,
+.header,
+.row5 {
+  display: flex;
+  justify-content: flex-start;
+}
+.row5 {
+  align-self: stretch;
+  border-radius: 0 0 var(--br-9xs) var(--br-9xs);
+  background-color: var(--white);
+  border: 1px solid var(--color-aliceblue);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl) var(--padding-3xs)
+    var(--padding-xs);
+  align-items: center;
+}
+.column {
+  position: relative;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--regular-paragraph-small-size);
+  color: var(--color-black);
+  font-family: var(--regular-heading-6);
+}
