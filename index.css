@@ -1,26 +1,26 @@
-.chevron-left-icon {
+.chevron-left-icon7 {
   position: relative;
   width: 19px;
   height: 19px;
   display: none;
 }
-.button {
+.button7 {
   position: absolute;
   top: 0;
   left: 0;
   font-size: var(--font-size-base);
   letter-spacing: 0.04em;
   font-weight: 600;
-  font-family: var(--regular-heading-6);
+  font-family: var(--regular-paragraph-small);
   color: var(--color-firebrick);
   text-align: left;
 }
-.button-wrapper {
+.button-frame {
   position: relative;
   width: 73px;
   height: 19px;
 }
-.secondary-button {
+.secondary-button1 {
   cursor: pointer;
   border: 1px solid var(--color-firebrick);
   padding: var(--padding-4xs) var(--padding-xs);
@@ -35,28 +35,28 @@
   justify-content: center;
   gap: var(--gap-9xs);
 }
-.secondary-button:hover {
+.secondary-button1:hover {
   background-color: var(--color-mistyrose);
   border: 1px solid var(--color-mistyrose);
   box-sizing: border-box;
 }
-.button1 {
+.button8 {
   position: absolute;
   top: 0;
   left: 0;
   font-size: var(--font-size-base);
   letter-spacing: 0.04em;
   font-weight: 600;
-  font-family: var(--regular-heading-6);
+  font-family: var(--regular-paragraph-small);
   color: var(--color-green);
   text-align: left;
 }
-.button-container {
+.group-div {
   position: relative;
   width: 53px;
   height: 19px;
 }
-.secondary-button1 {
+.secondary-button2 {
   cursor: pointer;
   border: 1px solid var(--color-green);
   padding: var(--padding-4xs) var(--padding-xs);
@@ -71,16 +71,16 @@
   justify-content: center;
   gap: var(--gap-9xs);
 }
-.secondary-button1:hover {
+.secondary-button2:hover {
   background-color: var(--color-beige);
   border: 1px solid var(--color-beige);
   box-sizing: border-box;
 }
-.button2 {
+.button9 {
   position: relative;
   font-size: var(--regular-paragraph-small-size);
   letter-spacing: 0.04em;
-  font-family: var(--regular-heading-6);
+  font-family: var(--regular-paragraph-small);
   color: var(--color-royalblue);
   text-align: left;
 }
@@ -89,6 +89,12 @@
   width: 19px;
   height: 19px;
 }
+.border6,
+.text-button {
+  position: absolute;
+  border-radius: var(--br-9xs);
+  box-sizing: border-box;
+}
 .text-button {
   cursor: pointer;
   border: 0;
@@ -96,43 +102,35 @@
   background-color: transparent;
   top: 16px;
   left: 223px;
-  border-radius: var(--br-9xs);
   height: 41px;
   display: flex;
   flex-direction: row;
-  box-sizing: border-box;
   align-items: center;
   justify-content: center;
   gap: var(--gap-9xs);
 }
-.border,
-.text-button,
-.value {
-  position: absolute;
-}
-.border {
+.border6 {
   height: 84.85%;
   width: 100%;
   top: 15.15%;
   right: 0;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-9xs);
   border: 1px solid var(--color-slategray);
-  box-sizing: border-box;
 }
-.value {
+.value8 {
+  position: absolute;
   top: calc(50% - 23px);
   left: 13px;
   letter-spacing: 0.4px;
   line-height: 56px;
 }
-.workflow-type {
+.workflow-type2 {
   position: relative;
   letter-spacing: 0.4px;
   line-height: 18px;
 }
-.fieldset-label {
+.fieldset-label6 {
   position: absolute;
   top: calc(50% - 35px);
   left: 10px;
@@ -145,14 +143,14 @@
   font-size: var(--semi-bold-paragraph-xsmall-size);
   color: var(--medium-dark-gray);
 }
-.caret-down-icon {
+.caret-down-icon4 {
   position: absolute;
   top: calc(50% - 8px);
   right: 14px;
   width: 19px;
   height: 19px;
 }
-.mui-select-list {
+.mui-select-list3 {
   position: absolute;
   top: 78px;
   left: 16px;
@@ -167,7 +165,7 @@
   letter-spacing: 0.04em;
   color: var(--color-black);
 }
-.value1 {
+.value9 {
   position: absolute;
   top: calc(50% - 23px);
   left: 13px;
@@ -175,7 +173,7 @@
   line-height: 56px;
   opacity: 0;
 }
-.fieldset-label1 {
+.fieldset-label7 {
   position: absolute;
   top: calc(50% - 6px);
   left: 10px;
@@ -187,14 +185,14 @@
   justify-content: flex-start;
   color: var(--medium-dark-gray);
 }
-.caret-down-icon1 {
+.caret-down-icon5 {
   position: absolute;
   top: calc(50% - 4px);
   right: 14px;
   width: 19px;
   height: 19px;
 }
-.mui-select-liststatic {
+.mui-select-liststatic1 {
   position: absolute;
   top: 269px;
   left: 16px;
@@ -218,5 +216,5 @@
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-gray);
-  font-family: var(--regular-heading-6);
+  font-family: var(--regular-paragraph-small);
 }

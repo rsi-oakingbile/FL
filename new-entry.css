@@ -21,11 +21,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  gap: 10px;
+  gap: var(--gap-3xs);
   font-size: var(--regular-heading-6-size);
   color: var(--color-black);
 }
-.border4 {
+.border {
   position: absolute;
   height: 84.85%;
   width: 100%;
@@ -38,10 +38,10 @@
   box-sizing: border-box;
 }
 .label,
-.value4 {
+.value {
   letter-spacing: 0.4px;
 }
-.value4 {
+.value {
   position: absolute;
   top: calc(50% - 22.5px);
   left: 13px;
@@ -51,7 +51,7 @@
   position: relative;
   line-height: 18px;
 }
-.fieldset-label4 {
+.fieldset-label {
   position: absolute;
   top: calc(50% - 26.5px);
   left: 10px;
@@ -71,12 +71,12 @@
   width: 19px;
   height: 19px;
 }
-.mui-select-list1 {
+.mui-select-list {
   flex: 1;
   position: relative;
   height: 51px;
 }
-.caret-down-icon4 {
+.caret-down-icon {
   position: absolute;
   top: calc(50% - 7.5px);
   right: 13.5px;
@@ -92,14 +92,14 @@
   justify-content: flex-start;
   gap: var(--gap-xl);
 }
-.caret-down-icon5 {
+.caret-down-icon1 {
   position: absolute;
   top: calc(50% - 7.5px);
   right: 14px;
   width: 19px;
   height: 19px;
 }
-.mui-select-list3 {
+.mui-select-list2 {
   align-self: stretch;
   position: relative;
   height: 51px;
@@ -111,7 +111,7 @@
   align-items: center;
   justify-content: center;
 }
-.border7 {
+.border3 {
   position: absolute;
   height: 94.87%;
   width: 100%;
@@ -123,7 +123,7 @@
   border: 1px solid var(--color-slategray);
   box-sizing: border-box;
 }
-.value7 {
+.value3 {
   position: absolute;
   top: calc(50% - 22.5px);
   left: 13px;
@@ -131,7 +131,7 @@
   line-height: 56px;
   display: none;
 }
-.fieldset-label7 {
+.fieldset-label3 {
   position: absolute;
   top: calc(50% - 98.5px);
   left: 10px;
@@ -158,7 +158,7 @@
   flex-shrink: 0;
 }
 .label3,
-.value8 {
+.value4 {
   position: relative;
   line-height: 20px;
 }
@@ -166,7 +166,7 @@
   font-weight: 300;
   display: none;
 }
-.value8 {
+.value4 {
   color: var(--color-gray);
 }
 .check-box-outline-blank-parent,
@@ -200,18 +200,18 @@
   font-size: var(--regular-paragraph-small-size);
   color: var(--color-darkslateblue);
 }
-.chevron-left-icon7 {
+.chevron-left-icon {
   position: relative;
   width: 19px;
   height: 19px;
   display: none;
 }
-.button7 {
+.button {
   position: relative;
   font-size: var(--font-size-base);
   letter-spacing: 0.04em;
   font-weight: 600;
-  font-family: var(--regular-heading-6);
+  font-family: var(--regular-paragraph-small);
   color: var(--white);
   text-align: left;
 }
@@ -227,29 +227,29 @@
   justify-content: center;
   gap: var(--gap-9xs);
 }
-.button8 {
+.button1 {
   position: absolute;
   top: 0;
   left: 0;
   font-size: var(--font-size-base);
   letter-spacing: 0.04em;
   font-weight: 600;
-  font-family: var(--regular-heading-6);
+  font-family: var(--regular-paragraph-small);
   color: var(--color-royalblue);
   text-align: left;
 }
-.button-wrapper1 {
+.button-wrapper {
   position: relative;
   width: 56px;
   height: 19px;
 }
 .primary-button-parent,
-.secondary-button2 {
+.secondary-button {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.secondary-button2 {
+.secondary-button {
   cursor: pointer;
   border: 1px solid var(--color-royalblue);
   padding: var(--padding-4xs) var(--padding-xs);
@@ -284,13 +284,13 @@
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-gray);
-  font-family: var(--regular-heading-6);
+  font-family: var(--regular-paragraph-small);
 }
 @media screen and (max-width: 420px) {
   .primary-button:hover {
     background-color: var(--color-darkslateblue);
   }
-  .secondary-button2:hover {
+  .secondary-button:hover {
     background-color: var(--color-aliceblue);
     border: 1px solid var(--color-aliceblue);
     box-sizing: border-box;
